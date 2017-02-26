@@ -35,7 +35,7 @@ function setup() {
 
 function draw() {
   background(0);
-  var step = 10;
+  var step = 125;
   if(count < step){
    letes.find("tebow1").display(); 
   }else if(count < step*2){
