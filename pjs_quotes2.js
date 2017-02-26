@@ -69,7 +69,7 @@ function person(n, q, img){
 }
 
 function display(x, y){
- fill(255);
+ fill(252,185,65);
  textSize(15);
  image(this.image, 75,25,350,350);
  text("\"" + this.quote + "\" -" + this.name, 75,400,350);
